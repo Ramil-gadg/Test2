@@ -12,7 +12,7 @@ class ProfileViewController: UIViewController, UITextFieldDelegate {
     var currentUser: UserModel
     
     var multiplier:CGFloat = 1
-    let hobbies = ["Авто", "Бизнес", "Инвестиции", "СпортСаморазвитие", "Здоровье", "Еда", "Семья", "Дети", "Домашние питомцы", "Фильмы","Компьютерные игры","Музыка"]
+    let hobbies = ["Авто", "Бизнес", "Инвестиции", "Спорт", "Саморазвитие", "Здоровье", "Еда", "Семья", "Дети", "Домашние питомцы", "Фильмы","Компьютерные игры","Музыка"]
     
     let scrollView: UIScrollView = {
         let scrollView = UIScrollView()
